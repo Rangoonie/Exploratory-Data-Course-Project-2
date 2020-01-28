@@ -27,7 +27,7 @@ PM2.5 Emissions Data (``summarySCC_PM25.rds``): This file contains a data frame 
 * ``type``: The type of source (point, non-point, on-road, or non-road)
 * ``year``: The year of emissions recorded
 
-Source Classification Code Table (``Source_Classification_Code.rds``): This table provides a mapping from the SCC digit strings int he Emissions table to the actual name of the $PM_{2.5}$ source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source 10100101 is known as Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal.
+Source Classification Code Table (``Source_Classification_Code.rds``): This table provides a mapping from the SCC digit strings int he Emissions table to the actual name of the $PM_{2.5}$ source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source "10100101" is known as "Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal".
 
 You can read each of the two files using the ``readRDS()`` function in R. For example, reading in each file can be done with the following code:
 
@@ -44,7 +44,7 @@ as long as each of those files is in your current working directory (check by ca
 Assignment
 ---------------
 
-The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 19992008. You may use any R package you want to support your analysis.
+The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999-2008. You may use any R package you want to support your analysis.
 
 ### Questions
 
